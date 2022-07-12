@@ -1,0 +1,197 @@
+/* ELEMENTS */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+/* ID */
+
+#title {
+    background-color: #222831;
+    color: #00ADB5;
+    padding: 3% 15%;
+}
+
+#features {
+    background-color: #fff;
+    color: #00ADB5;
+    padding: 7% 15%;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    z-index: 1;
+}
+
+#testimonials {
+    background-color: #393E46;
+    color: #00ADB5;
+    padding: 7% 15%; 
+    text-align: center;
+}
+
+#press {
+    background-color: #393E46;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#pricing {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 100px;
+}
+
+#cta {
+    background-color: #393E46;
+    padding: 7% 15%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+    font-size: 1.5rem;
+}
+
+/* CLASSES */
+/* TITLE SECTION */
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+.navbar {
+    margin-bottom: 80px;
+}
+
+.landing-logo {
+    margin-left: -35px;
+}
+
+
+
+.navbar-brand {
+    font-family: "Dancing Script";
+    padding-left: 30px;
+    font-size: 100px;
+}
+
+.nav-item {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 9px;
+}
+
+.nav-link {
+    font-size: 4.5rem;
+}
+
+.DL {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+.title-image {
+    
+    transform: rotate(25deg);
+    position: absolute;
+    right: 24%;
+}
+
+.title-bio {
+    font-size: 3.5rem;
+}
+
+/* FEATURES SECTION */
+
+.fa-solid {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+.fa-solid:hover {
+    color: #222831;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-box p {
+    color: #393E46;
+}
+
+/* TESTIMONIAL SECTION */
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* PRESS SECTION */
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* PRICING SECTION */
+.card-deck {
+    padding: 7% 5%; 
+}
+
+.pricing-title {
+    padding: 7% 15%;
+}
+
+.card-deck ul li {
+    color: #222831;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* CTA SECTION */
+
+.cta {
+    padding: 7% 15%;
+    color: #00ADB5;
+    text-align: center;
+
+}
+
+/* FOOTER SECTION */
+.footer-bio {
+    font-size: 4rem;
+}
+
+.social-icons {
+    margin: 2%;
+    color:#00ADB5;
+}
+
+.download-button-footer {
+    margin: 5% 3% 5% 0%;
+    text-align: center;
+}
+
+/* MEDIA QUERIES */
+ /* TITLE SECTION MEDIA QUERIES */
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+ /* TITLE SECTION MEDIA QUERIES */
+
